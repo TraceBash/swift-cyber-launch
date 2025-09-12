@@ -68,7 +68,7 @@ const Contact = () => {
   return (
     <div className="flex min-h-screen flex-col">
       <SEO
-        title="Contact Us | CyberShield"
+        title="Contact Us | TraceBash Security"
         description="Get in touch with our cybersecurity experts. Request a security assessment or learn more about our penetration testing services."
         keywords="contact cybersecurity, security assessment, penetration testing consultation"
       />
@@ -198,7 +198,7 @@ const Contact = () => {
                     <div className="space-y-4">
                       <div className="flex items-center space-x-3">
                         <Mail className="h-5 w-5 text-accent" />
-                        <span>info@cybershield.com</span>
+                        <span>info@tracebash.com</span>
                       </div>
                       <div className="flex items-center space-x-3">
                         <Phone className="h-5 w-5 text-accent" />

@@ -52,7 +52,7 @@ const Services = () => {
   return (
     <div className="flex min-h-screen flex-col">
       <SEO
-        title="Cybersecurity Services | CyberShield"
+        title="Cybersecurity Services | TraceBash Security"
         description="Professional penetration testing, VAPT services, and red team exercises. Comprehensive cybersecurity assessments to protect your organization."
         keywords="cybersecurity services, penetration testing, VAPT, red team, security assessment"
       />

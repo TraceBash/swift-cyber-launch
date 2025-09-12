@@ -50,7 +50,7 @@ const PenetrationTesting = () => {
   return (
     <div className="flex min-h-screen flex-col">
       <SEO
-        title="Penetration Testing Services | CyberShield"
+        title="Penetration Testing Services | TraceBash Security"
         description="Professional penetration testing services to identify vulnerabilities in your applications, networks, and infrastructure. Comprehensive security assessments with detailed reporting."
         keywords="penetration testing, pentesting, security assessment, vulnerability testing, ethical hacking"
       />

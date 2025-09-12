@@ -6,8 +6,8 @@ const Privacy = () => {
   return (
     <div className="flex min-h-screen flex-col">
       <SEO
-        title="Privacy Policy | CyberShield"
-        description="CyberShield's privacy policy outlining how we collect, use, and protect your personal information during security assessments."
+        title="Privacy Policy | TraceBash Security"
+        description="TraceBash Security's privacy policy outlining how we collect, use, and protect your personal information during security assessments."
         keywords="privacy policy, data protection, cybersecurity privacy"
       />
       
@@ -126,7 +126,7 @@ const Privacy = () => {
                 If you have questions about this privacy policy or our privacy practices, please contact us:
               </p>
               <div className="text-muted-foreground">
-                <p>Email: privacy@cybershield.com</p>
+                <p>Email: privacy@tracebash.com</p>
                 <p>Phone: +1 (555) 123-4567</p>
                 <p>Address: San Francisco, CA</p>
               </div>

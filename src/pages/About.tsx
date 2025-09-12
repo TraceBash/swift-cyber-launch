@@ -57,8 +57,8 @@ const About = () => {
   return (
     <div className="flex min-h-screen flex-col">
       <SEO
-        title="About CyberShield | Cybersecurity Experts & Methodology"
-        description="Learn about CyberShield's mission, expert team, and proven methodology for cybersecurity assessments. Trusted by 500+ organizations worldwide."
+        title="About TraceBash Security | Cybersecurity Experts & Methodology"
+        description="Learn about TraceBash Security's mission, expert team, and proven methodology for cybersecurity assessments. Trusted by 500+ organizations worldwide."
         keywords="cybersecurity experts, penetration testing team, security methodology, certified professionals"
       />
       
@@ -69,7 +69,7 @@ const About = () => {
         <section className="px-6 py-24 lg:px-8 bg-gradient-to-r from-primary to-primary/80">
           <div className="mx-auto max-w-4xl text-center">
             <h1 className="mb-6 text-4xl font-bold tracking-tight text-primary-foreground sm:text-5xl">
-              About CyberShield
+              About TraceBash Security
             </h1>
             <p className="mb-8 text-xl leading-8 text-primary-foreground/90 max-w-2xl mx-auto">
               Protecting organizations through expert cybersecurity testing and strategic security guidance
@@ -82,7 +82,7 @@ const About = () => {
           <div className="mx-auto max-w-4xl text-center">
             <h2 className="text-3xl font-bold mb-6">Our Mission</h2>
             <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
-              CyberShield exists to help organizations understand and improve their security posture through 
+              TraceBash Security exists to help organizations understand and improve their security posture through 
               comprehensive, ethical security testing. We believe that effective cybersecurity requires both 
               technical expertise and clear communication, enabling our clients to make informed decisions 
               about their security investments.
@@ -191,7 +191,7 @@ const About = () => {
         {/* Why Choose Us */}
         <section className="py-24 px-6 lg:px-8 bg-muted/30">
           <div className="mx-auto max-w-4xl text-center">
-            <h2 className="text-3xl font-bold mb-6">Why Organizations Choose CyberShield</h2>
+            <h2 className="text-3xl font-bold mb-6">Why Organizations Choose TraceBash Security</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-left">
               <div>
                 <h3 className="text-xl font-semibold mb-4">Proven Track Record</h3>
@@ -246,7 +246,7 @@ const About = () => {
               Partner with Security Experts
             </h2>
             <p className="text-xl mb-8 text-primary-foreground/90">
-              Join 500+ organizations that trust CyberShield for their security assessments
+              Join 500+ organizations that trust TraceBash Security for their security assessments
             </p>
             <Button asChild size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90 text-lg px-8 py-6">
               <Link to="/contact">

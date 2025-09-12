@@ -70,13 +70,13 @@ const SEO = ({ title, description, keywords, ogImage, canonical }: SEOProps) => 
     const jsonLd = {
       "@context": "https://schema.org",
       "@type": "Organization",
-      "name": "CyberShield",
+      "name": "TraceBash Security",
       "description": description,
       "url": window.location.origin,
       "logo": `${window.location.origin}/favicon.ico`,
       "contactPoint": {
         "@type": "ContactPoint",
-        "email": "info@cybershield.com",
+        "email": "info@tracebash.com",
         "contactType": "customer service"
       },
       "areaServed": "Worldwide",

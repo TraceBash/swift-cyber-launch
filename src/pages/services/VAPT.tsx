@@ -50,7 +50,7 @@ const VAPT = () => {
   return (
     <div className="flex min-h-screen flex-col">
       <SEO
-        title="VAPT Services - Vulnerability Assessment & Penetration Testing | CyberShield"
+        title="VAPT Services - Vulnerability Assessment & Penetration Testing | TraceBash Security"
         description="Comprehensive VAPT services combining automated vulnerability scanning with manual security testing. Get detailed risk assessments and remediation guidance."
         keywords="VAPT, vulnerability assessment, penetration testing, security audit, compliance testing"
       />

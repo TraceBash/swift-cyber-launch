@@ -10,7 +10,7 @@ const Footer = () => {
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
               <Shield className="h-8 w-8 text-accent" />
-              <span className="text-xl font-bold">CyberShield</span>
+              <span className="text-xl font-bold">TraceBash Security</span>
             </div>
             <p className="text-sm text-primary-foreground/80 max-w-sm">
               Authorized penetration testing and red teaming services to help organizations validate controls and find real risks.
@@ -93,7 +93,7 @@ const Footer = () => {
             <div className="space-y-3 text-sm">
               <div className="flex items-center space-x-2">
                 <Mail className="h-4 w-4 text-accent" />
-                <span className="text-primary-foreground/80">info@cybershield.com</span>
+                <span className="text-primary-foreground/80">info@tracebash.com</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Phone className="h-4 w-4 text-accent" />
@@ -110,7 +110,7 @@ const Footer = () => {
         <div className="mt-12 pt-8 border-t border-primary-foreground/20">
           <div className="flex flex-col sm:flex-row justify-between items-center space-y-4 sm:space-y-0">
             <p className="text-sm text-primary-foreground/60">
-              © 2024 CyberShield. All rights reserved.
+              © 2024 TraceBash Security. All rights reserved.
             </p>
             <p className="text-xs text-primary-foreground/60 max-w-md text-center">
               Engagements are scoped, authorized, and compliant. No unapproved activity.

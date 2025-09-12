@@ -6,8 +6,8 @@ const Terms = () => {
   return (
     <div className="flex min-h-screen flex-col">
       <SEO
-        title="Terms of Service | CyberShield"
-        description="CyberShield's terms of service governing the use of our cybersecurity assessment services and website."
+        title="Terms of Service | TraceBash Security"
+        description="TraceBash Security's terms of service governing the use of our cybersecurity assessment services and website."
         keywords="terms of service, cybersecurity terms, legal agreement"
       />
       
@@ -22,7 +22,7 @@ const Terms = () => {
             <section>
               <h2 className="text-2xl font-semibold mb-4">1. Acceptance of Terms</h2>
               <p className="text-muted-foreground mb-4">
-                By accessing or using CyberShield's services, you agree to be bound by these Terms of Service 
+                By accessing or using TraceBash Security's services, you agree to be bound by these Terms of Service 
                 and all applicable laws and regulations. If you do not agree with any of these terms, 
                 you are prohibited from using our services.
               </p>
@@ -31,7 +31,7 @@ const Terms = () => {
             <section>
               <h2 className="text-2xl font-semibold mb-4">2. Services Description</h2>
               <p className="text-muted-foreground mb-4">
-                CyberShield provides cybersecurity assessment services including but not limited to:
+                TraceBash Security provides cybersecurity assessment services including but not limited to:
               </p>
               <ul className="text-muted-foreground space-y-2">
                 <li>• Penetration testing services</li>
@@ -90,7 +90,7 @@ const Terms = () => {
             <section>
               <h2 className="text-2xl font-semibold mb-4">6. Limitation of Liability</h2>
               <p className="text-muted-foreground mb-4">
-                CyberShield's liability is limited as follows:
+                TraceBash Security's liability is limited as follows:
               </p>
               <ul className="text-muted-foreground space-y-2">
                 <li>• Our services are provided on an "as is" basis</li>
@@ -164,7 +164,7 @@ const Terms = () => {
                 For questions about these terms or our services, please contact us:
               </p>
               <div className="text-muted-foreground">
-                <p>Email: legal@cybershield.com</p>
+                <p>Email: legal@tracebash.com</p>
                 <p>Phone: +1 (555) 123-4567</p>
                 <p>Address: San Francisco, CA</p>
               </div>

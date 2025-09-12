@@ -50,7 +50,7 @@ const RedTeam = () => {
   return (
     <div className="flex min-h-screen flex-col">
       <SEO
-        title="Red Team Exercises | Advanced Adversary Simulation | CyberShield"
+        title="Red Team Exercises | Advanced Adversary Simulation | TraceBash Security"
         description="Professional red team exercises to test your organization's detection and response capabilities. Advanced adversary simulation with blue team collaboration."
         keywords="red team, adversary simulation, purple team, security testing, detection testing"
       />

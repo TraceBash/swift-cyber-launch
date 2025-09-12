@@ -68,7 +68,7 @@ const Index = () => {
   return (
     <div className="flex min-h-screen flex-col">
       <SEO
-        title="CyberShield: Authorized Penetration Testing & Red Teaming"
+        title="TraceBash Security: Authorized Penetration Testing & Red Teaming"
         description="We help organizations validate controls, find real risks, and ship fixes—fast and repeatably. Professional cybersecurity services you can trust."
         keywords="penetration testing, red team, cybersecurity, vulnerability assessment, VAPT, security audit"
         canonical={window.location.href}
@@ -95,7 +95,7 @@ const Index = () => {
               Trusted by 500+ Organizations
             </Badge>
             <h1 className="mb-6 text-4xl font-bold tracking-tight text-white sm:text-6xl">
-              CyberShield: Authorized Penetration Testing & Red Teaming
+              TraceBash Security: Authorized Penetration Testing & Red Teaming
             </h1>
             <p className="mb-10 text-xl leading-8 text-white/90 max-w-2xl mx-auto">
               We help organizations validate controls, find real risks, and ship fixes—fast and repeatably.
@@ -175,7 +175,7 @@ const Index = () => {
           <div className="mx-auto max-w-7xl">
             <div className="text-center mb-16">
               <h2 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl mb-4">
-                Why Choose CyberShield
+                Why Choose TraceBash Security
               </h2>
               <p className="text-xl text-muted-foreground">
                 Trusted expertise with proven results
