@@ -6,6 +6,7 @@ import { Shield, Target, Search, Users, CheckCircle, ArrowRight, Award, Lock, Za
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import SEO from "@/components/SEO";
+import AnimatedHero from "@/components/ui/animated-hero";
 
 const Index = () => {
   const services = [
@@ -78,7 +79,7 @@ const Index = () => {
       
       <main className="flex-1">
         {/* Hero Section */}
-        <section className="relative px-6 py-24 lg:px-8 overflow-hidden">
+        <section className="relative px-6 py-24 lg:px-8 overflow-hidden min-h-[80vh]">
           <div 
             className="absolute inset-0 -z-10"
             style={{ background: 'var(--hero-gradient)' }}
@@ -90,28 +91,38 @@ const Index = () => {
             }} />
           </div>
           
-          <div className="mx-auto max-w-4xl text-center">
-            <Badge variant="secondary" className="mb-6 bg-accent/10 text-accent border-accent/20">
-              Trusted by 500+ Organizations
-            </Badge>
-            <h1 className="mb-6 text-4xl font-bold tracking-tight text-white sm:text-6xl">
-              TraceBash Security: Authorized Penetration Testing & Red Teaming
-            </h1>
-            <p className="mb-10 text-xl leading-8 text-white/90 max-w-2xl mx-auto">
-              We help organizations validate controls, find real risks, and ship fixes—fast and repeatably.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-              <Button asChild size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90 text-lg px-8 py-6">
-                <Link to="/contact">
-                  Request an Assessment
-                  <ArrowRight className="ml-2 h-5 w-5" />
-                </Link>
-              </Button>
-              <Button asChild variant="outline" size="lg" className="border-white/20 text-muted-foreground hover:bg-white/10 hover:text-foreground text-lg px-8 py-6">
-                <Link to="/services">
-                  View Services
-                </Link>
-              </Button>
+          <div className="mx-auto max-w-7xl">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+              {/* Left side - Content */}
+              <div className="text-left space-y-8">
+                <Badge variant="secondary" className="bg-accent/10 text-accent border-accent/20 w-fit">
+                  Trusted by 500+ Organizations
+                </Badge>
+                <h1 className="text-4xl font-bold tracking-tight text-white sm:text-5xl lg:text-6xl">
+                  TraceBash Security: Authorized Penetration Testing & Red Teaming
+                </h1>
+                <p className="text-xl leading-8 text-white/90 max-w-xl">
+                  We help organizations validate controls, find real risks, and ship fixes—fast and repeatably.
+                </p>
+                <div className="flex flex-col sm:flex-row gap-4">
+                  <Button asChild size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90 text-lg px-8 py-6">
+                    <Link to="/contact">
+                      Request an Assessment
+                      <ArrowRight className="ml-2 h-5 w-5" />
+                    </Link>
+                  </Button>
+                  <Button asChild variant="outline" size="lg" className="border-white/20 text-muted-foreground hover:bg-white/10 hover:text-foreground text-lg px-8 py-6">
+                    <Link to="/services">
+                      View Services
+                    </Link>
+                  </Button>
+                </div>
+              </div>
+              
+              {/* Right side - Animated Illustration */}
+              <div className="relative h-96 lg:h-[500px]">
+                <AnimatedHero />
+              </div>
             </div>
           </div>
         </section>
