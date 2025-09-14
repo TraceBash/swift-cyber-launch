@@ -28,7 +28,11 @@ All colors MUST be HSL.
 
     /* Muted: Light grays for backgrounds */
     --muted: 210 20% 96%;
-    --muted-foreground: 220 20% 50%;
+    --muted-foreground: 220 90% 20%;
+
+    /* Badge hover colors */
+    --badge-hover: 220 90% 15%;
+    --badge-hover-foreground: 0 0% 98%;
 
     /* Accent: Cyber cyan for highlights */
     --accent: 180 100% 45%;

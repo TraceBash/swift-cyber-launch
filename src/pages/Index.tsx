@@ -95,23 +95,24 @@ const Index = () => {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               {/* Left side - Content */}
               <div className="text-left space-y-8">
-                <Badge variant="secondary" className="bg-accent/10 text-accent border-accent/20 w-fit">
-                  Trusted by 500+ Organizations
+                <Badge variant="secondary" className="w-fit animate-fade-in">
+                  Trusted by 100+ Organizations
                 </Badge>
-                <h1 className="text-4xl font-bold tracking-tight text-white sm:text-5xl lg:text-6xl">
-                  TraceBash Security: Authorized Penetration Testing & Red Teaming
+                <h1 className="text-4xl font-bold tracking-tight text-white sm:text-5xl lg:text-6xl animate-slide-up max-w-4xl">
+                  <span className="whitespace-nowrap">TraceBash Security:</span><br />
+                  Authorized Penetration Testing & Red Teaming
                 </h1>
-                <p className="text-xl leading-8 text-white/90 max-w-xl">
+                <p className="text-xl leading-8 text-white/90 max-w-xl animate-fade-in">
                   We help organizations validate controls, find real risks, and ship fixes—fast and repeatably.
                 </p>
-                <div className="flex flex-col sm:flex-row gap-4">
-                  <Button asChild size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90 text-lg px-8 py-6">
+                <div className="flex flex-col sm:flex-row gap-4 animate-scale-in">
+                  <Button asChild variant="professional" size="lg" className="text-lg px-8 py-6">
                     <Link to="/contact">
                       Request an Assessment
                       <ArrowRight className="ml-2 h-5 w-5" />
                     </Link>
                   </Button>
-                  <Button asChild variant="outline" size="lg" className="border-white/20 text-muted-foreground hover:bg-white/10 hover:text-foreground text-lg px-8 py-6">
+                  <Button asChild variant="outline" size="lg" className="border-white/20 text-white hover:bg-white/10 hover:text-white text-lg px-8 py-6">
                     <Link to="/services">
                       View Services
                     </Link>
@@ -132,11 +133,11 @@ const Index = () => {
           <div className="mx-auto max-w-7xl">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               {benefits.map((benefit, index) => (
-                <div key={index} className="flex items-start space-x-4">
+                <div key={index} className="flex items-start space-x-4 animate-fade-in" style={{animationDelay: `${index * 0.2}s`}}>
                   {benefit.icon}
                   <div>
                     <h3 className="font-semibold text-lg text-foreground mb-2">{benefit.title}</h3>
-                    <p className="text-muted-foreground">{benefit.description}</p>
+                    <p className="text-foreground/80">{benefit.description}</p>
                   </div>
                 </div>
               ))}
@@ -148,16 +149,16 @@ const Index = () => {
         <section className="py-24 px-6 lg:px-8">
           <div className="mx-auto max-w-7xl">
             <div className="text-center mb-16">
-              <h2 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl mb-4">
+              <h2 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl mb-4 animate-fade-in">
                 Our Services
               </h2>
-              <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+              <p className="text-xl text-foreground/80 max-w-2xl mx-auto animate-slide-up">
                 Comprehensive cybersecurity testing services to protect your organization
               </p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               {services.map((service, index) => (
-                <Card key={index} className="group hover:shadow-lg transition-all duration-300 border-border hover:border-accent/50">
+                <Card key={index} className="group hover:shadow-lg transition-all duration-300 border-border hover:border-accent/50 hover:scale-105 animate-scale-in" style={{animationDelay: `${index * 0.1}s`}}>
                   <CardContent className="p-8">
                     <div className="mb-4">
                       {service.icon}
@@ -165,10 +166,10 @@ const Index = () => {
                     <h3 className="text-xl font-semibold mb-3 text-foreground group-hover:text-accent transition-colors">
                       {service.title}
                     </h3>
-                    <p className="text-muted-foreground mb-6">
+                    <p className="text-foreground/80 mb-6">
                       {service.description}
                     </p>
-                    <Button asChild variant="outline" className="group-hover:border-accent group-hover:text-accent">
+                    <Button asChild variant="outline" className="group-hover:border-accent group-hover:text-accent hover:bg-accent/10">
                       <Link to={service.href}>
                         Learn More
                         <ArrowRight className="ml-2 h-4 w-4" />
@@ -185,23 +186,23 @@ const Index = () => {
         <section className="py-24 px-6 lg:px-8 bg-muted/30">
           <div className="mx-auto max-w-7xl">
             <div className="text-center mb-16">
-              <h2 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl mb-4">
+              <h2 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl mb-4 animate-fade-in">
                 Why Choose TraceBash Security
               </h2>
-              <p className="text-xl text-muted-foreground">
+              <p className="text-xl text-foreground/80 animate-slide-up">
                 Trusted expertise with proven results
               </p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               {trustSignals.map((signal, index) => (
-                <div key={index} className="text-center">
+                <div key={index} className="text-center animate-scale-in" style={{animationDelay: `${index * 0.15}s`}}>
                   <div className="flex justify-center mb-4">
                     {signal.icon}
                   </div>
                   <h3 className="text-xl font-semibold mb-3 text-foreground">
                     {signal.title}
                   </h3>
-                  <p className="text-muted-foreground">
+                  <p className="text-foreground/80">
                     {signal.description}
                   </p>
                 </div>
@@ -212,14 +213,14 @@ const Index = () => {
 
         {/* CTA Section */}
         <section className="py-24 px-6 lg:px-8 bg-primary text-primary-foreground">
-          <div className="mx-auto max-w-4xl text-center">
+          <div className="mx-auto max-w-4xl text-center animate-fade-in">
             <h2 className="text-3xl font-bold mb-6">
               Ready to Strengthen Your Security?
             </h2>
             <p className="text-xl mb-8 text-primary-foreground/90">
               Get a comprehensive security assessment from our certified team
             </p>
-            <Button asChild size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90 text-lg px-8 py-6">
+            <Button asChild variant="accent" size="lg" className="text-lg px-8 py-6">
               <Link to="/contact">
                 Request Assessment
                 <ArrowRight className="ml-2 h-5 w-5" />
