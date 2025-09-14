@@ -9,7 +9,7 @@ const Footer = () => {
           {/* Brand */}
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
-              <img src="/assets/tracebash-logo.png" alt="TraceBash Security" className="h-10 w-auto" />
+              <img src="/assets/tracebash-logo.png" alt="TraceBash Security" className="h-12 w-auto" />
               <span className="text-xl font-bold">TraceBash Security</span>
             </div>
             <p className="text-sm text-primary-foreground/80 max-w-sm">
